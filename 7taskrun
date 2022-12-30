@@ -1,0 +1,13 @@
+123456789101112131415
+from spike import PrimeHub, LightMatrix, Button, StatusLight, ForceSensor, MotionSensor, Speaker, ColorSensor, App, DistanceSensor, Motor, MotorPairfrom spike.control import wait_for_seconds, wait_until, Timerimport mathfrom math import *import timehub = PrimeHub()color1 = ColorSensor('F') #rightcolor2 = ColorSensor('B') #leftmotor_pair = MotorPair('A', 'E')arm = Motor('C')motorA = Motor('A')motorE = Motor('E')# Function turn_to_angle()# Turn robot to any angle based on startup gyro angle.# Input arguments: The angle you want it to turn to relative to your gyro
+from spike import PrimeHub, LightMatrix, Button, StatusLight, ForceSensor, MotionSensor, Speaker, ColorSensor, App, DistanceSensor, Motor, MotorPair
+from spike.control import wait_for_seconds, wait_until, Timer
+import math
+from math import *
+import time
+hub = PrimeHub()
+color1 = ColorSensor('F') #right
+color2 = ColorSensor('B') #left
+motor_pair = MotorPair('A', 'E')
+arm = Motor('C')
+
